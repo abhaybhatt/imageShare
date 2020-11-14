@@ -1,0 +1,35 @@
+.table {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  overflow: scroll;
+  color: #6a5d5d;
+  background-color: white;
+  height: 200px;
+}
+
+.Score__head{
+  display: flex;
+  justify-content: center;
+}
+
+.inner{
+  padding-left: 10px;
+}
+
+.table tr {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.table td {
+  padding: 10px;
+  
+  border: none;
+}
+
+.table tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
